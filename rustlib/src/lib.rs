@@ -1,3 +1,8 @@
+#[no_mangle]
+pub extern "C" fn hello() {
+    println!("world!!");
+}
+
 #[cfg(test)]
 mod tests {
     #[test]

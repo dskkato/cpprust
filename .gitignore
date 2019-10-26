@@ -1,3 +1,10 @@
+# for Rust
 /target
 **/*.rs.bk
 Cargo.lock
+
+# for C++
+a.out
+*.o
+*.a
+*.d
