@@ -11,6 +11,7 @@ name = "rustlib"
 crate-type = ["staticlib"]
 
 [dependencies]
+ndarray = "0.13.0"
 
 [build-dependencies]
 cbindgen = "0.9.1"
