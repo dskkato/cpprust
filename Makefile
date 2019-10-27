@@ -16,3 +16,4 @@ release:
 clean:
 	cargo clean
 	make clean --directory=cppmain
+	rm -f a.out

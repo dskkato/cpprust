@@ -6,4 +6,4 @@ all: main.cpp
 	$(CXX) $(INCLUDES) -Wall -Wextra -c main.cpp
 
 clean:
-	rm main.o
+	rm -f main.o
