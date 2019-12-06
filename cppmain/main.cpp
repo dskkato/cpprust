@@ -2,8 +2,9 @@
 #include <iostream>
 
 int main() {
-  const int32_t v = hello(2);
-  assert(v == -1);
+  const Point p = {3, 3};
+  const int32_t v = hello(p);
+  
   std::cout << "Hello, C++" << v << std::endl;
   return 0;
 }
